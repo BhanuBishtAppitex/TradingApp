@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="KIz-eX-Hdz">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" id="iv7-NP-SO2" customClass="MainTabBarController" customModule="TradingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UZe-Jy-Ymr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="mainTabBar" destination="UZe-Jy-Ymr" id="hIy-F4-M2S"/>
+                        <segue destination="dSV-pk-jyy" kind="relationship" relationship="viewControllers" id="MIr-Vp-qAj"/>
+                        <segue destination="gN8-xJ-IGr" kind="relationship" relationship="viewControllers" id="dAD-vt-oOS"/>
+                        <segue destination="rou-Pp-GBK" kind="relationship" relationship="viewControllers" id="gvX-Me-AS5"/>
+                        <segue destination="XOF-G5-hTz" kind="relationship" relationship="viewControllers" id="tSP-df-Gr8"/>
+                        <segue destination="Kt8-wM-5mf" kind="relationship" relationship="viewControllers" id="Fwt-hq-4Xc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlY-3I-ojD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1397" y="-1645"/>
+        </scene>
+        <!--TradeViewController-->
+        <scene sceneID="RDq-gm-7Vs">
+            <objects>
+                <viewController storyboardIdentifier="TradeViewController" id="dSV-pk-jyy" userLabel="TradeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p6l-Ge-e1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="b70-MQ-1If"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trade" image="Trade" id="5tI-gV-kAK">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4l7-Ie-GUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4033" y="-786"/>
+        </scene>
+        <!--PortfolioViewController-->
+        <scene sceneID="PcF-q9-sZX">
+            <objects>
+                <viewController storyboardIdentifier="PortfolioViewController" id="gN8-xJ-IGr" userLabel="PortfolioViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yab-Kd-pKP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rXI-1q-GMj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="Portfolio" id="wTd-qO-IEM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JSC-Jm-jfb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2730" y="-786"/>
+        </scene>
+        <!--SearchViewController-->
+        <scene sceneID="Nhw-Io-WHh">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="rou-Pp-GBK" userLabel="SearchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wbc-Ky-ePW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="W3G-kY-RbP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="Search" id="7jg-Ap-4tq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uhj-kH-nrT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1397" y="-786"/>
+        </scene>
+        <!--NewsViewController-->
+        <scene sceneID="MbD-t3-FN3">
+            <objects>
+                <viewController storyboardIdentifier="NewsViewController" id="XOF-G5-hTz" userLabel="NewsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O8x-8J-TDf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7fG-Kd-MJm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="News" id="hme-ql-PVR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cIE-xD-c5E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="-764"/>
+        </scene>
+        <!--AccountViewController-->
+        <scene sceneID="OzL-hl-6RK">
+            <objects>
+                <viewController storyboardIdentifier="AccountViewController" id="Kt8-wM-5mf" userLabel="AccountViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yKu-Zg-xdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tHk-1c-dHF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Account" image="Account" id="lvm-rV-2Ln"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npy-yK-tiZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1360" y="-768"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Account" width="30" height="30"/>
+        <image name="News" width="30" height="30"/>
+        <image name="Portfolio" width="30" height="30"/>
+        <image name="Search" width="30" height="30"/>
+        <image name="Trade" width="30" height="30"/>
+        <namedColor name="AccentColor">
+            <color red="0.72941176470588232" green="0.53725490196078429" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
