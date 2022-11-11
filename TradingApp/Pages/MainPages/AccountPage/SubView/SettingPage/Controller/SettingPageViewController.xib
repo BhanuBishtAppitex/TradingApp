@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.otf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingPageViewController" customModule="TradingApp" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="UBK-4s-UBg" id="Vxn-2u-SAL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYH-3f-6GJ" userLabel="topBarView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="116"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xlZ-he-PaU">
+                            <rect key="frame" x="22" y="51" width="369" height="33"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PjJ-uP-8IY" userLabel="backButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="54" height="33"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="BackArrow"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbv-lF-R20">
+                                    <rect key="frame" x="151.5" y="5.5" width="67" height="22.5"/>
+                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                    <color key="textColor" name="TextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBD-Tu-r9c">
+                                    <rect key="frame" x="316" y="0.0" width="53" height="33"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="PlusIcon"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="116" id="ZUg-C2-to1"/>
+                        <constraint firstAttribute="trailing" secondItem="xlZ-he-PaU" secondAttribute="trailing" constant="23" id="dCh-al-n0F"/>
+                        <constraint firstAttribute="bottom" secondItem="xlZ-he-PaU" secondAttribute="bottom" constant="32" id="jEy-pS-7kJ"/>
+                        <constraint firstItem="xlZ-he-PaU" firstAttribute="top" secondItem="RYH-3f-6GJ" secondAttribute="top" constant="51" id="pIS-j1-SlK"/>
+                        <constraint firstItem="xlZ-he-PaU" firstAttribute="leading" secondItem="RYH-3f-6GJ" secondAttribute="leading" constant="22" id="uoB-t9-aA9"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="64" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="10" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UBK-4s-UBg">
+                    <rect key="frame" x="24" y="169" width="366" height="693"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="QgT-p0-bdA"/>
+                        <outlet property="delegate" destination="-1" id="zZr-FT-BtK"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundPrimary"/>
+            <constraints>
+                <constraint firstItem="UBK-4s-UBg" firstAttribute="top" secondItem="RYH-3f-6GJ" secondAttribute="bottom" constant="9" id="7vY-De-fJ4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="UBK-4s-UBg" secondAttribute="bottom" id="KLa-rf-bgx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UBK-4s-UBg" secondAttribute="trailing" constant="24" id="RsO-c9-hG5"/>
+                <constraint firstItem="RYH-3f-6GJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="bc2-PM-CUc"/>
+                <constraint firstItem="RYH-3f-6GJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pKz-cT-qIi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RYH-3f-6GJ" secondAttribute="trailing" id="vIb-Mw-jn3"/>
+                <constraint firstItem="UBK-4s-UBg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="yOA-1D-Upv"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="74"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackArrow" width="30" height="30"/>
+        <image name="PlusIcon" width="29" height="29"/>
+        <namedColor name="BackgroundPrimary">
+            <color red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

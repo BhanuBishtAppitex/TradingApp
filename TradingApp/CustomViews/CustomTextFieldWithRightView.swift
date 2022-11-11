@@ -55,3 +55,33 @@ class CustomTextFieldWithRightView: UITextField {
     }
 
 }
+
+class CustomSearchTextField: UITextField {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        updateView()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        updateView()
+    }
+    
+    func updateView() {
+        self.layer.borderWidth = 2
+        self.layer.borderColor = #colorLiteral(red: 0.7294117647, green: 0.537254902, blue: 0.3803921569, alpha: 1)
+        self.layer.cornerRadius = 5
+        let leftContentView = UIView()
+        leftContentView.frame = CGRect(x: 0, y: 0, width: 68, height: self.frame.height)
+        let searchIconIV = UIImageView(image: UIImage(named: "SearchIcon"))
+        searchIconIV.frame = CGRect(x: 32, y: leftContentView.frame.midY-(18/2), width: 18, height: 18)
+        searchIconIV.tintColor = #colorLiteral(red: 0.7294117647, green: 0.537254902, blue: 0.3803921569, alpha: 1)
+        leftContentView.addSubview(searchIconIV)
+        leftView = leftContentView
+        leftViewMode = .always
+        self.attributedPlaceholder = NSAttributedString(
+            string: "Search",
+            attributes: [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.7294117647, green: 0.537254902, blue: 0.3803921569, alpha: 1)]
+        )
+    }
+}

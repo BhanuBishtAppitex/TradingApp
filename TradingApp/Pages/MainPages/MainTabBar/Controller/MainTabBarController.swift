@@ -17,8 +17,8 @@ class MainTabBarController: UITabBarController {
         NSLayoutConstraint.activate([
            // tabBar.heightAnchor.constraint(equalToConstant: 73)
         ])
+        tabBar.unselectedItemTintColor = #colorLiteral(red: 0.4196078431, green: 0.4196078431, blue: 0.4196078431, alpha: 1)
     }
-    
 
 
 }

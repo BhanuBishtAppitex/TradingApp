@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5203D8E0291E0A7800F78E18 /* TradePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8DF291E0A7800F78E18 /* TradePageViewController.swift */; };
+		5203D8E7291E0F4200F78E18 /* CellForTopViewOfTradePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8E5291E0F4200F78E18 /* CellForTopViewOfTradePage.swift */; };
+		5203D8E8291E0F4200F78E18 /* CellForTopViewOfTradePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5203D8E6291E0F4200F78E18 /* CellForTopViewOfTradePage.xib */; };
+		5203D8EA291E11AC00F78E18 /* ModelForTradePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8E9291E11AC00F78E18 /* ModelForTradePage.swift */; };
+		5203D8EC291E21F200F78E18 /* CustomCornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8EB291E21F200F78E18 /* CustomCornerRadiusView.swift */; };
+		5203D8EF291E240A00F78E18 /* CellForMainViewOfTradingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8ED291E240A00F78E18 /* CellForMainViewOfTradingPage.swift */; };
+		5203D8F0291E240A00F78E18 /* CellForMainViewOfTradingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5203D8EE291E240A00F78E18 /* CellForMainViewOfTradingPage.xib */; };
+		5203D8F5291E28D900F78E18 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8F4291E28D900F78E18 /* CustomButton.swift */; };
+		5203D8FA291E3F6E00F78E18 /* PortfolioPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8F9291E3F6E00F78E18 /* PortfolioPageViewController.swift */; };
+		5203D904291E4DD400F78E18 /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D903291E4DD400F78E18 /* SearchPageViewController.swift */; };
+		5216D935291E52D1003A6C2C /* CellForSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D933291E52D1003A6C2C /* CellForSearchPage.swift */; };
+		5216D936291E52D1003A6C2C /* CellForSearchPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5216D934291E52D1003A6C2C /* CellForSearchPage.xib */; };
+		5216D938291E5582003A6C2C /* ModelForSearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D937291E5582003A6C2C /* ModelForSearchPage.swift */; };
+		5216D93F291E642C003A6C2C /* CellForAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D93D291E642C003A6C2C /* CellForAccountPage.swift */; };
+		5216D940291E642C003A6C2C /* CellForAccountPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5216D93E291E642C003A6C2C /* CellForAccountPage.xib */; };
+		5216D947291E67FC003A6C2C /* AccountPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D946291E67FC003A6C2C /* AccountPageViewController.swift */; };
+		5216D949291E6883003A6C2C /* ModelForAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D948291E6883003A6C2C /* ModelForAccountPage.swift */; };
+		5216D94C291E6F3A003A6C2C /* SettingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D94A291E6F3A003A6C2C /* SettingPageViewController.swift */; };
+		5216D94D291E6F3A003A6C2C /* SettingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5216D94B291E6F3A003A6C2C /* SettingPageViewController.xib */; };
+		5216D94F291E744D003A6C2C /* ModelForSettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D94E291E744D003A6C2C /* ModelForSettingPage.swift */; };
+		5216D956291E7BF5003A6C2C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D954291E7BF5003A6C2C /* SearchResultViewController.swift */; };
+		5216D957291E7BF5003A6C2C /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5216D955291E7BF5003A6C2C /* SearchResultViewController.xib */; };
+		5216D95B291E8166003A6C2C /* EditWatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216D959291E8166003A6C2C /* EditWatchlistViewController.swift */; };
+		5216D95C291E8166003A6C2C /* EditWatchlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5216D95A291E8166003A6C2C /* EditWatchlistViewController.xib */; };
 		529CCD3C291D17B100C90126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CCD3B291D17B100C90126 /* AppDelegate.swift */; };
 		529CCD3E291D17B100C90126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CCD3D291D17B100C90126 /* SceneDelegate.swift */; };
 		529CCD40291D17B100C90126 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CCD3F291D17B100C90126 /* LoginViewController.swift */; };
@@ -24,6 +48,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5203D8DF291E0A7800F78E18 /* TradePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradePageViewController.swift; sourceTree = "<group>"; };
+		5203D8E5291E0F4200F78E18 /* CellForTopViewOfTradePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForTopViewOfTradePage.swift; sourceTree = "<group>"; };
+		5203D8E6291E0F4200F78E18 /* CellForTopViewOfTradePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForTopViewOfTradePage.xib; sourceTree = "<group>"; };
+		5203D8E9291E11AC00F78E18 /* ModelForTradePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForTradePage.swift; sourceTree = "<group>"; };
+		5203D8EB291E21F200F78E18 /* CustomCornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadiusView.swift; sourceTree = "<group>"; };
+		5203D8ED291E240A00F78E18 /* CellForMainViewOfTradingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForMainViewOfTradingPage.swift; sourceTree = "<group>"; };
+		5203D8EE291E240A00F78E18 /* CellForMainViewOfTradingPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForMainViewOfTradingPage.xib; sourceTree = "<group>"; };
+		5203D8F4291E28D900F78E18 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5203D8F9291E3F6E00F78E18 /* PortfolioPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPageViewController.swift; sourceTree = "<group>"; };
+		5203D903291E4DD400F78E18 /* SearchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		5216D933291E52D1003A6C2C /* CellForSearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForSearchPage.swift; sourceTree = "<group>"; };
+		5216D934291E52D1003A6C2C /* CellForSearchPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForSearchPage.xib; sourceTree = "<group>"; };
+		5216D937291E5582003A6C2C /* ModelForSearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSearchPage.swift; sourceTree = "<group>"; };
+		5216D93D291E642C003A6C2C /* CellForAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForAccountPage.swift; sourceTree = "<group>"; };
+		5216D93E291E642C003A6C2C /* CellForAccountPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForAccountPage.xib; sourceTree = "<group>"; };
+		5216D946291E67FC003A6C2C /* AccountPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageViewController.swift; sourceTree = "<group>"; };
+		5216D948291E6883003A6C2C /* ModelForAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForAccountPage.swift; sourceTree = "<group>"; };
+		5216D94A291E6F3A003A6C2C /* SettingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageViewController.swift; sourceTree = "<group>"; };
+		5216D94B291E6F3A003A6C2C /* SettingPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingPageViewController.xib; sourceTree = "<group>"; };
+		5216D94E291E744D003A6C2C /* ModelForSettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSettingPage.swift; sourceTree = "<group>"; };
+		5216D954291E7BF5003A6C2C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		5216D955291E7BF5003A6C2C /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
+		5216D959291E8166003A6C2C /* EditWatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWatchlistViewController.swift; sourceTree = "<group>"; };
+		5216D95A291E8166003A6C2C /* EditWatchlistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditWatchlistViewController.xib; sourceTree = "<group>"; };
 		529CCD38291D17B100C90126 /* TradingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529CCD3B291D17B100C90126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529CCD3D291D17B100C90126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +101,216 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5203D8E1291E0EED00F78E18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8E9291E11AC00F78E18 /* ModelForTradePage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5203D8E2291E0EF100F78E18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8F1291E242100F78E18 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5203D8E3291E0EF600F78E18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8DF291E0A7800F78E18 /* TradePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5203D8F1291E242100F78E18 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8F2291E242A00F78E18 /* CellForTopView */,
+				5203D8F3291E243000F78E18 /* CellForMainView */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5203D8F2291E242A00F78E18 /* CellForTopView */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8E6291E0F4200F78E18 /* CellForTopViewOfTradePage.xib */,
+				5203D8E5291E0F4200F78E18 /* CellForTopViewOfTradePage.swift */,
+			);
+			path = CellForTopView;
+			sourceTree = "<group>";
+		};
+		5203D8F3291E243000F78E18 /* CellForMainView */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8EE291E240A00F78E18 /* CellForMainViewOfTradingPage.xib */,
+				5203D8ED291E240A00F78E18 /* CellForMainViewOfTradingPage.swift */,
+			);
+			path = CellForMainView;
+			sourceTree = "<group>";
+		};
+		5203D8F6291E3F3B00F78E18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5203D8F7291E3F4000F78E18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5203D8F8291E3F4400F78E18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8F9291E3F6E00F78E18 /* PortfolioPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5203D900291E4DBF00F78E18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5216D937291E5582003A6C2C /* ModelForSearchPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5203D901291E4DC400F78E18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5216D933291E52D1003A6C2C /* CellForSearchPage.swift */,
+				5216D934291E52D1003A6C2C /* CellForSearchPage.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5203D902291E4DC900F78E18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5203D903291E4DD400F78E18 /* SearchPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5216D939291E63F6003A6C2C /* SettingPage */ = {
+			isa = PBXGroup;
+			children = (
+				5216D93C291E6414003A6C2C /* Model */,
+				5216D93A291E6404003A6C2C /* Controller */,
+			);
+			path = SettingPage;
+			sourceTree = "<group>";
+		};
+		5216D93A291E6404003A6C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5216D94A291E6F3A003A6C2C /* SettingPageViewController.swift */,
+				5216D94B291E6F3A003A6C2C /* SettingPageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5216D93C291E6414003A6C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5216D94E291E744D003A6C2C /* ModelForSettingPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5216D941291E67BB003A6C2C /* AccountPage */ = {
+			isa = PBXGroup;
+			children = (
+				5216D944291E67D6003A6C2C /* Model */,
+				5216D943291E67D1003A6C2C /* View */,
+				5216D942291E67CA003A6C2C /* Controller */,
+				5216D945291E67DA003A6C2C /* SubView */,
+			);
+			path = AccountPage;
+			sourceTree = "<group>";
+		};
+		5216D942291E67CA003A6C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5216D946291E67FC003A6C2C /* AccountPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5216D943291E67D1003A6C2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5216D93D291E642C003A6C2C /* CellForAccountPage.swift */,
+				5216D93E291E642C003A6C2C /* CellForAccountPage.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5216D944291E67D6003A6C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5216D948291E6883003A6C2C /* ModelForAccountPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5216D945291E67DA003A6C2C /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				5216D939291E63F6003A6C2C /* SettingPage */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		5216D950291E7B63003A6C2C /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				5216D953291E7BC2003A6C2C /* Model */,
+				5216D952291E7BBC003A6C2C /* View */,
+				5216D951291E7BB4003A6C2C /* Controller */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		5216D951291E7BB4003A6C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5216D954291E7BF5003A6C2C /* SearchResultViewController.swift */,
+				5216D955291E7BF5003A6C2C /* SearchResultViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5216D952291E7BBC003A6C2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5216D953291E7BC2003A6C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5216D958291E812E003A6C2C /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				5216D959291E8166003A6C2C /* EditWatchlistViewController.swift */,
+				5216D95A291E8166003A6C2C /* EditWatchlistViewController.xib */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
 		529CCD2F291D17B100C90126 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +362,8 @@
 			isa = PBXGroup;
 			children = (
 				529CCD61291D20A300C90126 /* CustomTextFieldWithRightView.swift */,
+				5203D8EB291E21F200F78E18 /* CustomCornerRadiusView.swift */,
+				5203D8F4291E28D900F78E18 /* CustomButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -173,9 +433,13 @@
 		529CCD65291D315600C90126 /* MainPages */ = {
 			isa = PBXGroup;
 			children = (
-				529CCD68291D356600C90126 /* Model */,
-				529CCD69291D356A00C90126 /* View */,
-				529CCD6A291D356E00C90126 /* Controller */,
+				5216D958291E812E003A6C2C /* Additional */,
+				529CCD6D291D38A000C90126 /* MainTabBar */,
+				529CCD6F291D38BF00C90126 /* TradePage */,
+				529CCD72291D38D600C90126 /* AccountsPage */,
+				529CCD71291D38CF00C90126 /* PortfolioPage */,
+				529CCD70291D38C800C90126 /* SearchPage */,
+				5216D941291E67BB003A6C2C /* AccountPage */,
 			);
 			path = MainPages;
 			sourceTree = "<group>";
@@ -201,6 +465,54 @@
 				529CCD6B291D359700C90126 /* MainTabBarController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		529CCD6D291D38A000C90126 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				529CCD68291D356600C90126 /* Model */,
+				529CCD69291D356A00C90126 /* View */,
+				529CCD6A291D356E00C90126 /* Controller */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		529CCD6F291D38BF00C90126 /* TradePage */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8E1291E0EED00F78E18 /* Model */,
+				5203D8E2291E0EF100F78E18 /* View */,
+				5203D8E3291E0EF600F78E18 /* Controller */,
+			);
+			path = TradePage;
+			sourceTree = "<group>";
+		};
+		529CCD70291D38C800C90126 /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				5203D900291E4DBF00F78E18 /* Model */,
+				5203D901291E4DC400F78E18 /* View */,
+				5203D902291E4DC900F78E18 /* Controller */,
+				5216D950291E7B63003A6C2C /* SubView */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		529CCD71291D38CF00C90126 /* PortfolioPage */ = {
+			isa = PBXGroup;
+			children = (
+				5203D8F8291E3F4400F78E18 /* Controller */,
+				5203D8F7291E3F4000F78E18 /* View */,
+				5203D8F6291E3F3B00F78E18 /* Model */,
+			);
+			path = PortfolioPage;
+			sourceTree = "<group>";
+		};
+		529CCD72291D38D600C90126 /* AccountsPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AccountsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,12 +573,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5216D94D291E6F3A003A6C2C /* SettingPageViewController.xib in Resources */,
+				5216D936291E52D1003A6C2C /* CellForSearchPage.xib in Resources */,
+				5216D940291E642C003A6C2C /* CellForAccountPage.xib in Resources */,
+				5203D8F0291E240A00F78E18 /* CellForMainViewOfTradingPage.xib in Resources */,
 				529CCD5C291D1B1000C90126 /* Poppins-Medium.otf in Resources */,
 				529CCD48291D17B300C90126 /* LaunchScreen.storyboard in Resources */,
 				529CCD67291D318200C90126 /* MainPage.storyboard in Resources */,
 				529CCD5E291D1B1000C90126 /* Poppins-SemiBold.otf in Resources */,
+				5216D957291E7BF5003A6C2C /* SearchResultViewController.xib in Resources */,
 				529CCD45291D17B300C90126 /* Assets.xcassets in Resources */,
+				5203D8E8291E0F4200F78E18 /* CellForTopViewOfTradePage.xib in Resources */,
 				529CCD43291D17B100C90126 /* Main.storyboard in Resources */,
+				5216D95C291E8166003A6C2C /* EditWatchlistViewController.xib in Resources */,
 				529CCD5D291D1B1000C90126 /* Poppins-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +597,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5203D8F5291E28D900F78E18 /* CustomButton.swift in Sources */,
+				5216D956291E7BF5003A6C2C /* SearchResultViewController.swift in Sources */,
 				529CCD64291D2B3500C90126 /* SignupViewController.swift in Sources */,
 				529CCD40291D17B100C90126 /* LoginViewController.swift in Sources */,
 				529CCD3C291D17B100C90126 /* AppDelegate.swift in Sources */,
+				5203D8FA291E3F6E00F78E18 /* PortfolioPageViewController.swift in Sources */,
+				5216D947291E67FC003A6C2C /* AccountPageViewController.swift in Sources */,
+				5216D949291E6883003A6C2C /* ModelForAccountPage.swift in Sources */,
+				5203D8E7291E0F4200F78E18 /* CellForTopViewOfTradePage.swift in Sources */,
+				5203D904291E4DD400F78E18 /* SearchPageViewController.swift in Sources */,
 				529CCD6C291D359700C90126 /* MainTabBarController.swift in Sources */,
+				5216D93F291E642C003A6C2C /* CellForAccountPage.swift in Sources */,
+				5216D95B291E8166003A6C2C /* EditWatchlistViewController.swift in Sources */,
+				5203D8E0291E0A7800F78E18 /* TradePageViewController.swift in Sources */,
+				5216D938291E5582003A6C2C /* ModelForSearchPage.swift in Sources */,
+				5203D8EC291E21F200F78E18 /* CustomCornerRadiusView.swift in Sources */,
+				5203D8EF291E240A00F78E18 /* CellForMainViewOfTradingPage.swift in Sources */,
+				5216D94F291E744D003A6C2C /* ModelForSettingPage.swift in Sources */,
 				529CCD3E291D17B100C90126 /* SceneDelegate.swift in Sources */,
+				5216D94C291E6F3A003A6C2C /* SettingPageViewController.swift in Sources */,
+				5216D935291E52D1003A6C2C /* CellForSearchPage.swift in Sources */,
+				5203D8EA291E11AC00F78E18 /* ModelForTradePage.swift in Sources */,
 				529CCD62291D20A300C90126 /* CustomTextFieldWithRightView.swift in Sources */,
 				529CCD60291D1B5200C90126 /* Constants.swift in Sources */,
 			);

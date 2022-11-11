@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.otf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CellForTopViewOfTradePage" customModule="TradingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="46"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="46"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AwC-wE-vsC">
+                        <rect key="frame" x="24" y="0.0" width="334" height="46"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZHf-7t-6dY">
+                                <rect key="frame" x="145.5" y="12" width="43.5" height="22.5"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOQ-k1-QSd">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" name="TextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="tintColor" name="BackgroundSecondary"/>
+                        <constraints>
+                            <constraint firstItem="ZHf-7t-6dY" firstAttribute="centerY" secondItem="AwC-wE-vsC" secondAttribute="centerY" id="EC3-gn-wm7"/>
+                            <constraint firstItem="ZHf-7t-6dY" firstAttribute="centerX" secondItem="AwC-wE-vsC" secondAttribute="centerX" id="mo5-4g-nTo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="BackgroundSecondary"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AwC-wE-vsC" secondAttribute="trailing" constant="24" id="C7g-46-4XV"/>
+                <constraint firstAttribute="bottom" secondItem="AwC-wE-vsC" secondAttribute="bottom" id="HZB-wr-Edj"/>
+                <constraint firstItem="AwC-wE-vsC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="PcS-Co-ZB8"/>
+                <constraint firstItem="AwC-wE-vsC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cKI-4b-meF"/>
+                <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="AwC-wE-vsC" secondAttribute="width" constant="48" id="kM4-sI-bx8"/>
+            </constraints>
+            <size key="customSize" width="382" height="46"/>
+            <connections>
+                <outlet property="mainLabel" destination="yOQ-k1-QSd" id="9Wq-Of-mgf"/>
+                <outlet property="mainView" destination="AwC-wE-vsC" id="l0F-QK-Avj"/>
+            </connections>
+            <point key="canvasLocation" x="369.56521739130437" y="71.651785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BackgroundSecondary">
+            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
