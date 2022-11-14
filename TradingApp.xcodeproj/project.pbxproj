@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200733A292255F300498EC2 /* SellAndBuyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52007339292255F300498EC2 /* SellAndBuyStoryboard.storyboard */; };
+		5200733C2922579600498EC2 /* SellAndBuyOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200733B2922579600498EC2 /* SellAndBuyOneViewController.swift */; };
 		5203D8E0291E0A7800F78E18 /* TradePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8DF291E0A7800F78E18 /* TradePageViewController.swift */; };
 		5203D8E7291E0F4200F78E18 /* CellForTopViewOfTradePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203D8E5291E0F4200F78E18 /* CellForTopViewOfTradePage.swift */; };
 		5203D8E8291E0F4200F78E18 /* CellForTopViewOfTradePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5203D8E6291E0F4200F78E18 /* CellForTopViewOfTradePage.xib */; };
@@ -45,9 +47,15 @@
 		529CCD64291D2B3500C90126 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CCD63291D2B3500C90126 /* SignupViewController.swift */; };
 		529CCD67291D318200C90126 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CCD66291D318200C90126 /* MainPage.storyboard */; };
 		529CCD6C291D359700C90126 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CCD6B291D359700C90126 /* MainTabBarController.swift */; };
+		52DF13BE29226ECA00091188 /* SellAndBuyTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF13BD29226ECA00091188 /* SellAndBuyTwoViewController.swift */; };
+		52DF13C32922759A00091188 /* CellForSellAndBuyTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF13C12922759A00091188 /* CellForSellAndBuyTwo.swift */; };
+		52DF13C42922759A00091188 /* CellForSellAndBuyTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DF13C22922759A00091188 /* CellForSellAndBuyTwo.xib */; };
+		A450FA88FCE04FF0A19D535D /* Pods_TradingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5536B9578B36171EA93F0052 /* Pods_TradingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52007339292255F300498EC2 /* SellAndBuyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SellAndBuyStoryboard.storyboard; sourceTree = "<group>"; };
+		5200733B2922579600498EC2 /* SellAndBuyOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAndBuyOneViewController.swift; sourceTree = "<group>"; };
 		5203D8DF291E0A7800F78E18 /* TradePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradePageViewController.swift; sourceTree = "<group>"; };
 		5203D8E5291E0F4200F78E18 /* CellForTopViewOfTradePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForTopViewOfTradePage.swift; sourceTree = "<group>"; };
 		5203D8E6291E0F4200F78E18 /* CellForTopViewOfTradePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForTopViewOfTradePage.xib; sourceTree = "<group>"; };
@@ -88,6 +96,12 @@
 		529CCD63291D2B3500C90126 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		529CCD66291D318200C90126 /* MainPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
 		529CCD6B291D359700C90126 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		52DF13BD29226ECA00091188 /* SellAndBuyTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellAndBuyTwoViewController.swift; sourceTree = "<group>"; };
+		52DF13C12922759A00091188 /* CellForSellAndBuyTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForSellAndBuyTwo.swift; sourceTree = "<group>"; };
+		52DF13C22922759A00091188 /* CellForSellAndBuyTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForSellAndBuyTwo.xib; sourceTree = "<group>"; };
+		5536B9578B36171EA93F0052 /* Pods_TradingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66616C2881F8064A4AC46812 /* Pods-TradingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingApp.debug.xcconfig"; path = "Target Support Files/Pods-TradingApp/Pods-TradingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A112281D0D16108CC7D65E /* Pods-TradingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingApp.release.xcconfig"; path = "Target Support Files/Pods-TradingApp/Pods-TradingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +109,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A450FA88FCE04FF0A19D535D /* Pods_TradingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA13072858C66A555B5BC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5536B9578B36171EA93F0052 /* Pods_TradingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5203D8E1291E0EED00F78E18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +330,11 @@
 			children = (
 				5216D959291E8166003A6C2C /* EditWatchlistViewController.swift */,
 				5216D95A291E8166003A6C2C /* EditWatchlistViewController.xib */,
+				52007339292255F300498EC2 /* SellAndBuyStoryboard.storyboard */,
+				5200733B2922579600498EC2 /* SellAndBuyOneViewController.swift */,
+				52DF13BD29226ECA00091188 /* SellAndBuyTwoViewController.swift */,
+				52DF13C12922759A00091188 /* CellForSellAndBuyTwo.swift */,
+				52DF13C22922759A00091188 /* CellForSellAndBuyTwo.xib */,
 			);
 			path = Additional;
 			sourceTree = "<group>";
@@ -316,6 +344,8 @@
 			children = (
 				529CCD3A291D17B100C90126 /* TradingApp */,
 				529CCD39291D17B100C90126 /* Products */,
+				DB7A5CDC46A7406DBD1C2830 /* Pods */,
+				1EA13072858C66A555B5BC9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -515,6 +545,15 @@
 			path = AccountsPage;
 			sourceTree = "<group>";
 		};
+		DB7A5CDC46A7406DBD1C2830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66616C2881F8064A4AC46812 /* Pods-TradingApp.debug.xcconfig */,
+				E7A112281D0D16108CC7D65E /* Pods-TradingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -522,9 +561,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529CCD4C291D17B300C90126 /* Build configuration list for PBXNativeTarget "TradingApp" */;
 			buildPhases = (
+				367F89CDDC7E0F3CA47CE72F /* [CP] Check Pods Manifest.lock */,
 				529CCD34291D17B100C90126 /* Sources */,
 				529CCD35291D17B100C90126 /* Frameworks */,
 				529CCD36291D17B100C90126 /* Resources */,
+				EBDA1A7D224313DA9851B787 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -573,6 +614,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5200733A292255F300498EC2 /* SellAndBuyStoryboard.storyboard in Resources */,
 				5216D94D291E6F3A003A6C2C /* SettingPageViewController.xib in Resources */,
 				5216D936291E52D1003A6C2C /* CellForSearchPage.xib in Resources */,
 				5216D940291E642C003A6C2C /* CellForAccountPage.xib in Resources */,
@@ -585,12 +627,55 @@
 				529CCD45291D17B300C90126 /* Assets.xcassets in Resources */,
 				5203D8E8291E0F4200F78E18 /* CellForTopViewOfTradePage.xib in Resources */,
 				529CCD43291D17B100C90126 /* Main.storyboard in Resources */,
+				52DF13C42922759A00091188 /* CellForSellAndBuyTwo.xib in Resources */,
 				5216D95C291E8166003A6C2C /* EditWatchlistViewController.xib in Resources */,
 				529CCD5D291D1B1000C90126 /* Poppins-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		367F89CDDC7E0F3CA47CE72F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDA1A7D224313DA9851B787 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		529CCD34291D17B100C90126 /* Sources */ = {
@@ -601,12 +686,14 @@
 				5216D956291E7BF5003A6C2C /* SearchResultViewController.swift in Sources */,
 				529CCD64291D2B3500C90126 /* SignupViewController.swift in Sources */,
 				529CCD40291D17B100C90126 /* LoginViewController.swift in Sources */,
+				52DF13C32922759A00091188 /* CellForSellAndBuyTwo.swift in Sources */,
 				529CCD3C291D17B100C90126 /* AppDelegate.swift in Sources */,
 				5203D8FA291E3F6E00F78E18 /* PortfolioPageViewController.swift in Sources */,
 				5216D947291E67FC003A6C2C /* AccountPageViewController.swift in Sources */,
 				5216D949291E6883003A6C2C /* ModelForAccountPage.swift in Sources */,
 				5203D8E7291E0F4200F78E18 /* CellForTopViewOfTradePage.swift in Sources */,
 				5203D904291E4DD400F78E18 /* SearchPageViewController.swift in Sources */,
+				52DF13BE29226ECA00091188 /* SellAndBuyTwoViewController.swift in Sources */,
 				529CCD6C291D359700C90126 /* MainTabBarController.swift in Sources */,
 				5216D93F291E642C003A6C2C /* CellForAccountPage.swift in Sources */,
 				5216D95B291E8166003A6C2C /* EditWatchlistViewController.swift in Sources */,
@@ -619,6 +706,7 @@
 				5216D94C291E6F3A003A6C2C /* SettingPageViewController.swift in Sources */,
 				5216D935291E52D1003A6C2C /* CellForSearchPage.swift in Sources */,
 				5203D8EA291E11AC00F78E18 /* ModelForTradePage.swift in Sources */,
+				5200733C2922579600498EC2 /* SellAndBuyOneViewController.swift in Sources */,
 				529CCD62291D20A300C90126 /* CustomTextFieldWithRightView.swift in Sources */,
 				529CCD60291D1B5200C90126 /* Constants.swift in Sources */,
 			);
@@ -762,6 +850,7 @@
 		};
 		529CCD4D291D17B300C90126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66616C2881F8064A4AC46812 /* Pods-TradingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -790,6 +879,7 @@
 		};
 		529CCD4E291D17B300C90126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A112281D0D16108CC7D65E /* Pods-TradingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

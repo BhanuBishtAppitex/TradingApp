@@ -23,6 +23,12 @@ class EditWatchlistViewController: UIViewController {
         
     }
     
+    @IBAction func sellButtonPressed(_ sender: UIButton) {
+        print("sell button pressed")
+        let storyboard = UIStoryboard(name: "SellAndBuyStoryboard", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SellAndBuyOne")
+        present(vc, animated: true)
+    }
     @IBAction func stepperValueChanged(_ sender: UIButton) {
         
         sender.transform = CGAffineTransform(scaleX: 2.6, y: 2.6)
@@ -60,8 +66,6 @@ class EditWatchlistViewController: UIViewController {
             }
         }
     }
-    
-    
-    
-    
 }
+
+
